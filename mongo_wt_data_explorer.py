@@ -104,7 +104,7 @@ def dump_write(
     dump_ident = dump(ident)
 
     def write_key(write, key):
-        write("Key:\t%s\n" % (decode_key(key),))
+        write("Key:\t%s / possible $recordId:%d\n" % (decode_key(key), int(key, 16) - 49088))
 
     def write_value(write, value):
         write("Value:\t%s\n" % (decode_value(value),))
