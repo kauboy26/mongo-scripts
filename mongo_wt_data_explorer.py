@@ -6,8 +6,8 @@ import sys
 import pprint
 
 
-wt_path = ""
-ksdecode_path = ""
+wt_path = "build/install/bin/wt"
+ksdecode_path = "build/install/bin/ksdecode"
 data_path = ""
 timestamp = None
 

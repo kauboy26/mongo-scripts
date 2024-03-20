@@ -1,0 +1,2 @@
+alias wtexplorer='python3 ~/mongo-scripts/mongo_wt_data_explorer.py'
+alias hex2bson='python3 ~/mongo-scripts/hex2bson.py'
